@@ -1,0 +1,71 @@
+.testimonialhome {
+    background-color: #1C1C1C;
+    width: 100%;
+    min-height: 650px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.qwas {
+    color: #FEF2A5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.testimonialname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.exrt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.testimonialbox {
+    min-height: 205px;
+    box-shadow: 4px 4px 15px 0px #E2B74833;
+    color: #1C1C1C;
+    background: linear-gradient(134.92deg, #E2B748 -11.55%, #FEF2A5 47.97%, #E2B748 115.43%);
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 40px;
+    margin-left: 20px;
+    width: 450px;
+    
+}
+
+
+.testimonialbox>p {
+    font-size: 14px;
+    margin-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.ewqdda {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .servicbox {
+        max-width: 100%;
+    }
+}

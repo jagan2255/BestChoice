@@ -1,0 +1,44 @@
+.boxcontent {
+    background-color: #272727;
+    min-height: 350px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex: content;
+    justify-content: center;
+   
+}
+
+.indbox {
+    display: flex;
+    width: 330px;
+    padding: 32px; 
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--spacing-system-radius-lg, 16px);
+    border: 1.5px solid var(--Gold-2, #E2B748);
+    background: var(--Gold-2, linear-gradient(135deg, #E2B748 -11.55%, #FEF2A5 47.97%, #E2B748 115.43%));
+    box-shadow: 4px 4px 15.4px 0px rgba(226, 183, 72, 0.20);
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.indbox > h3 {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.indbox > p {
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 7%;
+}

@@ -1,0 +1,111 @@
+.header {
+    background-color: #1C1C1C;
+    height: 180px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+
+}
+
+.logo {
+
+    width: 380px;
+    height: 140px;
+}
+
+.signin {
+    background-color: #1C1C1C;
+    border: 2px solid #FEF2A5;
+    border-radius: 12px;
+    color: #FEF2A5;
+    padding: 16px, 24px, 16px, 24px;
+    width: 100px;
+    height: 50px;
+    size: 23px;
+
+}
+
+.signin2 {
+    border-radius: 12px;
+    padding: 16px, 24px, 16px, 24px;
+    width: 160px;
+    height: 50px;
+    size: 23px;
+    background: linear-gradient(108.69deg, #AE8625 -47.85%, #F7EF8A 13.59%, #D2AC47 72.15%, #EDC967 136.47%);
+    border: 2px solid #FEF2A5;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+
+.number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F7EF8A;
+    display: flex;
+
+}
+
+.phtext {
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 494;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F7EF8A;
+    text-align: right;
+
+
+}
+
+.bttn {
+    display: flex;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .phtext,
+    .number {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 220px;
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .signin2 {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .signin {
+        width: 80px;
+        font-size: 12px;
+        margin-left: 20px;
+        
+    }
+
+}
