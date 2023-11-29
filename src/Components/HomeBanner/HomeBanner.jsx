@@ -7,6 +7,14 @@ function HomeBanner() {
     <div className='homeBanner'>
   <div>
     <img className='imageclass' src={image} alt="" /> 
+    <div className='tabbar'>
+        <p>Home</p>
+        <p>About</p>
+        <p>Service</p>
+        <p>Media</p>
+        <p>Career</p>
+        <p>Contact</p>
+    </div>
   </div>
 
     </div>
