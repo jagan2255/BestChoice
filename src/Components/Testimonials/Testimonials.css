@@ -45,7 +45,7 @@
     padding: 40px;
     margin-left: 20px;
     width: 450px;
-    
+
 }
 
 
@@ -54,7 +54,7 @@
     margin-top: 12px;
     padding-left: 10px;
     padding-right: 10px;
-    
+
 }
 
 .ewqdda {
@@ -65,7 +65,15 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .servicbox {
+    .testimonialbox {
         max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .testimonialbox {
+        max-width: 340px;
+        box-sizing: border-box;
     }
 }

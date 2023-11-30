@@ -6,13 +6,14 @@
     display: flex;
     flex: content;
     justify-content: center;
-   
+
+
 }
 
 .indbox {
     display: flex;
     width: 330px;
-    padding: 32px; 
+    padding: 32px;
     height: 150px;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +27,7 @@
     margin-top: 20px;
 }
 
-.indbox > h3 {
+.indbox>h3 {
     color: #000;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -34,11 +35,18 @@
     font-weight: 600;
 }
 
-.indbox > p {
+.indbox>p {
     color: #000;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 7%;
+}
+
+@media screen and (max-width: 500px) {
+    .fgdfdfgvcb {
+        width: 97%;
+        box-sizing: border-box;
+    }
 }

@@ -7,6 +7,8 @@
     padding-bottom: 80px;
     padding-left: 30px;
     padding-bottom: 30px;
+    padding-right: 30px;
+
 
 }
 
@@ -29,7 +31,7 @@
 }
 
 .head2 {
-  
+
     font-size: 21px;
     font-weight: lighter;
     line-height: 34px;

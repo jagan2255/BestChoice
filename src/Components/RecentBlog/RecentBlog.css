@@ -45,7 +45,7 @@
     padding: 20px;
     margin-left: 20px;
     width: 450px;
-    
+
 }
 
 
@@ -54,7 +54,7 @@
     margin-top: 12px;
     padding-left: 10px;
     padding-right: 10px;
-    
+
 }
 
 .recentblogbox>h3 {
@@ -62,10 +62,10 @@
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    
+
 }
 
-.recentblogbox>div>img{
+.recentblogbox>div>img {
     width: 100%;
     border-radius: 10px;
 }
@@ -83,7 +83,15 @@
     }
 }
 
-.tereter{
+.tereter {
     text-align: center;
     margin-top: 80px;
+}
+
+@media screen and (max-width: 500px) {
+    .recentblogbox {
+        max-width: 360px;
+        box-sizing: border-box;
+    }
+
 }

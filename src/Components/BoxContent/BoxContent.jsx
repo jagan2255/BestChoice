@@ -3,7 +3,7 @@ import './BoxContent.css'
 
 function BoxContent() {
     return (
-        <div className='boxcontent row '>
+        <div className='fgdfdfgvcb'><div className='boxcontent row '>
 
             <div className='indbox col-10 col-lg-3 col-md-4'>
 
@@ -34,7 +34,8 @@ function BoxContent() {
             </div>
 
 
-        </div>
+        </div></div>
+
     )
 }
 

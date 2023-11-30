@@ -5,12 +5,13 @@
     padding-right: 30px;
     color: white;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .footercont {
-  
-    flex-wrap: wrap;    
+
+    flex-wrap: wrap;
     display: flex;
     padding-top: 150px;
     justify-content: center;
@@ -43,19 +44,17 @@
     color: #F7EF8A;
 }
 
-.pbs{
+.pbs {
     padding-bottom: 55px;
     margin-right: 0px;
-    
-}
-
-.socialicons{
- padding-left: 10px;
 
 }
 
-.trtrt{
+.socialicons {
+    padding-left: 10px;
+
+}
+
+.trtrt {
     font-size: 18px;
 }
-
-
