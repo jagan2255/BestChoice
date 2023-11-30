@@ -26,7 +26,7 @@ function Service() {
 
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>Immigration Services	</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 
@@ -34,7 +34,7 @@ function Service() {
 
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>Business Setup</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 
@@ -42,7 +42,7 @@ function Service() {
 
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>Labour/Mohre Services</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 
@@ -50,7 +50,7 @@ function Service() {
 
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>Foreign Visa Services</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 
@@ -58,21 +58,21 @@ function Service() {
 
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>All Government Services</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 
                     </div>
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>Typing Services</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 
                     </div>
                     <div className='col-12 col-lg-3 col-md-4 col-sm-6 servicbox'>
 
-                        <h3><b>Visa Services</b></h3>
+                        <h3><b>Typing Services</b></h3>
                         <p>We can handle your visa application, renewal, extension, and cancellation.</p>
                         <button>Read More</button>
 

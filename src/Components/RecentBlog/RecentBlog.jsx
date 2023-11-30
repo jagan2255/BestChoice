@@ -1,13 +1,14 @@
 import React from 'react';
 import logoimage from '../Images/Frame 34571.png';
 import './RecentBlog.css';
-import image1  from '../Images/blog1.jpg'
-import image2  from '../Images/blog2.jpg'
-import image3  from '../Images/blog3.jpg'
+import image1 from '../Images/blog1.jpg'
+import image2 from '../Images/blog2.jpg'
+import image3 from '../Images/blog3.jpg'
+import logoo from "../Images/_Ã«Ã®Ã©_1.png"
 
 function RecentBlog() {
-  return (
-    <div className='recentbloghome'>
+    return (
+        <div className='recentbloghome'>
 
             <div className='recentblogname'>
                 <div><img src={logoimage} alt="" /></div>
@@ -52,9 +53,13 @@ function RecentBlog() {
                 </div>
 
             </div>
-            
+            <div className='tereter'>
+                <div><img src={logoo} alt="" /></div>
+            </div>
+
+
         </div>
-  )
+    )
 }
 
 export default RecentBlog
